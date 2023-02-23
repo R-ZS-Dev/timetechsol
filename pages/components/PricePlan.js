@@ -27,11 +27,10 @@ const PricePlan = () => {
                         <p className='txtsocialprc'>15GB Uploads</p>
                     </div>
                     <div className='buybtnm'>
-                        <Link className='readamorprc' href={'/'}> <strong>BUY NOW</strong>
+                        <Link className='readamorprc' href={'/'}>
                             <div className="rightarrowprc">
-                                <a className="rightarrprc" href="#">
-                                    <span className="rightprc"></span>
-                                </a>
+                                <strong>BUY NOW</strong>
+                                <span className="rightprc"></span>
                             </div>
                         </Link>
                     </div>
@@ -53,11 +52,10 @@ const PricePlan = () => {
                         <p className='txtsocialprc'>15GB Uploads</p>
                     </div>
                     <div className='buybtnm'>
-                        <Link className='readamorprc' href={'/'}> <strong>BUY NOW</strong>
+                        <Link className='readamorprc' href={'/'}>
                             <div className="rightarrowprc">
-                                <a className="rightarrprc" href="#">
-                                    <span className="rightprc"></span>
-                                </a>
+                                <strong>BUY NOW</strong>
+                                <span className="rightprc"></span>
                             </div>
                         </Link>
                     </div>
@@ -79,11 +77,10 @@ const PricePlan = () => {
                         <p className='txtsocialprc'>15GB Uploads</p>
                     </div>
                     <div className='buybtnm'>
-                        <Link className='readamorprc' href={'/'}> <strong>BUY NOW</strong>
+                        <Link className='readamorprc' href={'/'}>
                             <div className="rightarrowprc">
-                                <a className="rightarrprc" href="#">
-                                    <span className="rightprc"></span>
-                                </a>
+                                <strong>BUY NOW</strong>
+                                <span className="rightprc"></span>
                             </div>
                         </Link>
                     </div>

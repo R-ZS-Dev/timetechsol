@@ -13,7 +13,7 @@ const LatestService = () => {
 
             <div className='centerlets'>
                 <div className="cardlets">
-                    <Image src={'/./images/blog.jpg'} width='340' height={'250'}></Image>
+                    <Image src={'/images/blog.jpg'} width='340' height={'250'}></Image>
                     <div className='datfile'>
                         <p>july 15, 2023</p>
                         <p>Search Blocking</p>
@@ -26,7 +26,7 @@ const LatestService = () => {
                     <div className='bottompaddlets'></div>
                 </div>
                 <div className="cardlets">
-                    <Image src={'/./images/blog1.jpg'} width='340' height={'250'}></Image>
+                    <Image src={'/images/blog1.jpg'} width='340' height={'250'}></Image>
                     <div className='datfile'>
                         <p>july 15, 2023</p>
                         <p>Search Blocking</p>
@@ -40,7 +40,7 @@ const LatestService = () => {
                 </div>
 
                 <div className="cardlets">
-                    <Image src={'/./images/blog2.jpg'} width='340' height={'250'}></Image>
+                    <Image src={'/images/blog2.jpg'} width='340' height={'250'}></Image>
                     <div className='datfile'>
                         <p>july 15, 2023</p>
                         <p>Search Blocking</p>

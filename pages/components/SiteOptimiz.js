@@ -7,7 +7,7 @@ const SiteOptimiz = () => {
         <>
             <div className='fullopti'>
                 <div className='tophalf'>
-                    <Image className='imgcnt' src={'/./images/optipic.png'} height={'300'} width={'400'} alt="" />
+                    <Image className='imgcnt' src={'/images/optipic.png'} height={'300'} width={'400'} alt="" />
                 </div>
                 <div className='btmhalf'>
                     <div className='towline'>
@@ -17,9 +17,9 @@ const SiteOptimiz = () => {
                     <div className='contentopt'>
                         <button className="btnopt" href="">GET A FREE AUDIT
                             <div className="rightarrowopt">
-                                <a className="rightarropt" href="#">
+                                <Link className="rightarropt" href="/">
                                     <span className="rightopt"></span>
-                                </a>
+                                </Link>
                             </div>
                         </button>
                     </div>

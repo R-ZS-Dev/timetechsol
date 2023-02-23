@@ -8,32 +8,32 @@ const Footer = () => {
         <div className='fotone'>
             <div className='thirecns'>
                 <div className='thirecns'>
-                    {/* <Image className='radiousmg' src={'/./images/phone.jpg'} height='30' width={'30'} /> */}
+                    {/* <Image className='radiousmg' src={'/images/phone.jpg'} height='30' width={'30'} /> */}
                     <h3>(123) 0800 567890</h3>
                     <div className='monfri'>  Mon-Fri : 9.00 am - 6.00 pm </div>
                 </div>
             </div>
             <div>
-                {/* <Image className='radiousmg' src={'/./images/email.jpg'} height='30' width={'30'} /> */}
+                {/* <Image className='radiousmg' src={'/images/email.jpg'} height='30' width={'30'} /> */}
                 <h3>info@seosight.com</h3>
                 <label htmlFor=''>15 Hours Real Time Support</label>
             </div>
             <div>
-                {/* <Image className='radiousmg' src={'/./images/location.jpg'} height='30' width={'30'} /> */}
+                {/* <Image className='radiousmg' src={'/images/location.jpg'} height='30' width={'30'} /> */}
                 <h3>Newyork City</h3>
                 <label>55 street South Park Avenue</label>
             </div>
         </div>
         <div className='mainfooter'>
             <div className='fotleft'>
-                <Image src={'/./images/footer-logo.png'} width='200' height={'50'} />
+                <Image src={'/images/footer-logo.png'} width='200' height={'50'} />
                 <p className='leftstxt'>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and 
                     functional. Clean aesthetics supported by a strong concept is what we stand for...</p>
                 <div>
-                    <Image className='foticn' src={'/./images/fb.png'} width='25' height={'25'} />
-                    <Image className='foticn' src={'/./images/tw.png'} width='25' height={'25'} />
-                    <Image className='foticn' src={'/./images/ln.png'} width='25' height={'25'} />
-                    <Image className='foticn' src={'/./images/pn.png'} width='25' height={'25'} />
+                    <Image className='foticn' src={'/images/fb.png'} width='25' height={'25'} />
+                    <Image className='foticn' src={'/images/tw.png'} width='25' height={'25'} />
+                    <Image className='foticn' src={'/images/ln.png'} width='25' height={'25'} />
+                    <Image className='foticn' src={'/images/pn.png'} width='25' height={'25'} />
                 </div>
             </div>
             <div className='fotcentone'>
@@ -65,9 +65,9 @@ const Footer = () => {
                     <div className='contentfot'>
                         <button className="btnfot" href=""><strong>SEND MESSAGE</strong>
                             <div className="rightarrowfot">
-                                <a className="rightarrfot" href="#">
+                                <Link className="rightarrfot" href="/">
                                     <span className="rightfot"></span>
-                                </a>
+                                </Link>
                             </div>
                         </button>
                     </div>

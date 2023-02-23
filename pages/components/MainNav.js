@@ -7,11 +7,11 @@ const MainNav = () => {
         <>
             <div className="topnav">
                 <Image className='logopad' src={"/images/logo2.png"} height="35" width={"110"} alt="TimeSol" />
-                <Link href="#"><span>Blog</span></Link>
-                <Link href="#"><span>Team</span></Link>
-                <Link href="#"><span>About</span></Link>
-                <Link href="#"><span>Portfolio</span></Link>
-                <Link className='dropdown' href={"#"}>
+                <Link href="/"><span>Blog</span></Link>
+                <Link href="/"><span>Team</span></Link>
+                <Link href="/"><span>About</span></Link>
+                <Link href="/"><span>Portfolio</span></Link>
+                <span className='dropdown' href={"/"}>
                     <span>
                         <button className='dropbtn'>Services <i className="arrow down"></i></button>
                         <div className='dropdown-content'> 
@@ -22,8 +22,8 @@ const MainNav = () => {
                             <Link className='txtdec' href={"/"}><span>Search Engine Optimization</span></Link>
                         </div>
                     </span>
-                </Link>
-                <Link href="#"><span>Home</span></Link>
+                </span>
+                <Link href="/"><span>Home</span></Link>
             </div>
         </>
     )

@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 const WebMarketing = () => {
@@ -6,7 +7,7 @@ const WebMarketing = () => {
     <>
         <div className='webdisplay'>
             <div className='webmark1'>
-                <Image src={'/./images/resizeimg2.png'} height={'500'} width={'700'} alt=""/>
+                <Image src={'/images/resizeimg2.png'} height={'500'} width={'700'} alt=""/>
             </div>
             <div className=''>
                 <h1 className='headweb'>We Are The Best Solution For</h1>
@@ -18,17 +19,17 @@ const WebMarketing = () => {
                 </div>
                 <div>
                 <div className="rightarrowweb">
-                        <span className="rightarrweb" href="#">
+                        <span className="rightarrweb" href="/">
                             <span className="rightweb"></span>
                         </span> <span className='ecosystem'>Our philosophy is that we want to ecosystem.</span>
                 </div>
                 <div className="rightarrowweb">
-                        <span className="rightarrweb" href="#">
+                        <span className="rightarrweb" href="/">
                             <span className="rightweb"></span>
                         </span> <span className='ecosystem'>Making sure the other people than us.</span>
                 </div>
                 <div className="rightarrowweb">
-                        <span className="rightarrweb" href="#">
+                        <span className="rightarrweb" href="/">
                             <span className="rightweb"></span>
                         </span> <span className='ecosystem'>Best Solution For Your Better Web Marketing.</span>
                 </div>
@@ -37,9 +38,9 @@ const WebMarketing = () => {
                 <div className='content'>
                     <button className="btn" href="">Read More
                         <div className="rightarrow">
-                            <a className="rightarr" href="#">
+                            <Link className="rightarr" href="/">
                                 <span className="right"></span>
-                            </a>
+                            </Link>
                         </div>
                     </button>
                 </div>                

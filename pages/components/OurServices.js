@@ -13,7 +13,7 @@ const OurServices = () => {
 
             <div className='center'>
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
@@ -22,9 +22,8 @@ const OurServices = () => {
                     <div>
                         <Link className='readamor' href={'/'}> <strong>Read More</strong>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
@@ -32,7 +31,7 @@ const OurServices = () => {
                 </div>
 
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
@@ -41,9 +40,8 @@ const OurServices = () => {
                     <div>
                         <Link className='readamor' href={'/'}> <strong>Read More</strong>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
@@ -51,7 +49,7 @@ const OurServices = () => {
                 </div>
 
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
@@ -60,9 +58,8 @@ const OurServices = () => {
                     <div>
                         <Link className='readamor' href={'/'}> <strong>Read More</strong>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
@@ -70,7 +67,7 @@ const OurServices = () => {
                 </div>
 
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
@@ -79,9 +76,8 @@ const OurServices = () => {
                     <div>
                         <Link className='readamor' href={'/'}> <strong>Read More</strong>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
@@ -89,7 +85,7 @@ const OurServices = () => {
                 </div>
 
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
@@ -98,9 +94,8 @@ const OurServices = () => {
                     <div>
                         <Link className='readamor' href={'/'}> <strong>Read More</strong>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
@@ -108,18 +103,17 @@ const OurServices = () => {
                 </div>
 
                 <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="Avatar" height={'50'} width={'80'} />
+                    <Image className='crdicn' src="/images/circle.png" alt="Avatar" height={'50'} width={'80'} />
                     <div className="container">
                         <h3><b>Social Marketing</b></h3>
                         <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
+                        <Link className='readamor' href={'/'}>
                             <div className="rightarrow">
-                                <a className="rightarr" href="#">
-                                    <span className="right"></span>
-                                </a>
+                                <strong>Read More</strong>
+                                <span className="right"></span>
                             </div>
                         </Link>
                     </div>
