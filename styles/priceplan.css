@@ -1,0 +1,144 @@
+.priourser{
+    margin-top: 5%;
+    background-color: #f8f8f8;
+}
+
+.primcent{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 6%;
+}
+
+.pritxtcen{
+    text-align: center;
+    color: #646464;
+    padding: 5px;
+}
+
+.rightarrow {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarr {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 1em;
+    border: 0.2em solid #07249e;
+    border-radius: 50%;
+    margin-left: 1em;
+    padding: 1px;
+}
+
+.right:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.04em;
+    margin-left: -0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid #07249e;
+    border-right: 0.2em solid #07249e;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.centerprc{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+}
+
+.cardprc {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 28%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    margin: 20px;
+  }
+  
+  .cardprc:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .txtsocialprc{
+    color: #646464;
+    padding: 15px;
+}
+
+.buybtnm{
+    margin-top: 15%;
+}
+
+.readamorprc{
+    text-decoration: none;
+    color: #07249e;
+    border: 1px solid #07249e;
+    padding: 15px;
+    font-size: 14px;
+    border-radius: 5px;
+}
+
+.rightarrowprc {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarrprc {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.rightprc {
+    display: inline-block;
+    width: 1em;
+    border: 0.2em solid #07249e;
+    border-radius: 50%;
+    margin-left: 1em;
+    /* padding: 1px; */
+}
+
+.rightprc:after {
+    content: '';
+    display: inline-block;
+    /* margin-top: 0.04em; */
+    margin-left: -0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid #07249e;
+    border-right: 0.2em solid #07249e;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.bottompaddprc {
+    padding-bottom: 10%;
+}
+
+.pkgcol{
+    color: white;
+    background-color: #07249e;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+    padding: 5px;
+}
+
+.bttmrg{
+    margin-top: 30px;
+}

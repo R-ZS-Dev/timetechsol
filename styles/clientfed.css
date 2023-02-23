@@ -1,0 +1,42 @@
+.fullcli{
+    width: 100%;
+    display: flex;
+}
+.tophalfcli{
+    width: 50%;
+    text-align: center;
+}
+
+.imgcli{
+    margin-top: 80px;
+}
+
+.btmhalfcli{
+    width: 50%;
+    padding: 6%;
+}
+
+.cntnowcli{
+    font-size: 18px;
+    margin-top: 0px;
+    color: #b1afaf;
+    margin-top: 3%;
+}
+
+.getyourcli{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.towlinecli{
+    padding: 5%;
+}
+
+.cliname{
+    color: #07249e;
+    font-size: large;
+    margin-top: 5%;
+}
+
+.designat{
+    color: #07249e;
+}

@@ -1,0 +1,59 @@
+.subbg {
+    background-image: url('/./images/seo-banner.jpg');
+    width: 100%;
+    height: 400px;
+}
+
+.seofirst {
+    color: white;
+    text-align: center;
+    padding-top: 5%;
+    font-weight: 700;
+}
+
+.seosec {
+    color: white;
+    text-align: center;
+}
+
+.overfl {
+    overflow: auto;
+    margin-top: 3%;
+}
+
+.main {
+    text-align: center;
+}
+
+@media only screen and (max-width: 800px) {
+
+    /* For mobile phones: */
+    .main {
+        width: 100%;
+    }
+}
+
+.firstinp {
+    padding: 14px;
+    font-size: 14px;
+    border-radius: 6px;
+    border: none;
+    margin-left: 20px;
+    width: 400px;
+    outline: none;
+}
+
+.subscribe {
+    display: inline-block;
+    background: linear-gradient(to right, #ff5917, #ff9317);
+    border-radius: 6px;
+    width: 150px;
+    border: none;
+    padding: 14px;
+    box-sizing: border-box;
+    /* text-decoration: none; */
+    font-size: 16px;
+    cursor: pointer;
+    color: #fff;
+    margin-left: 20px;
+}

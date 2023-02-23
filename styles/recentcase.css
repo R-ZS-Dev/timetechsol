@@ -1,0 +1,126 @@
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.ourser1{
+    margin-top: 5%;
+    background-color: rgb(255, 255, 255);
+}
+
+.rcentcase1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.txtcen1{
+    text-align: center;
+    color: #646464;
+    padding: 5px;
+}
+
+.center1{
+    margin: auto;
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    flex-wrap: wrap;
+}
+
+.mcent1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.txtcen1{
+    text-align: center;
+    color: #646464;
+    padding: 3px;
+}
+
+.txtsocial1{
+    color: #646464;
+    padding: 0px 10px;
+}
+
+.txtsocial11{
+    color: #000000;
+    padding: 10px;
+}
+
+.card1 {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 28%;
+    border-radius: 5px;
+    margin: 30px;
+  }
+  
+  .card1:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card1 Image {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .crdicn1{
+    border-radius: 5px 5px 0 0;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+.rightarrow1 {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarr1 {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.right1 {
+    display: inline-block;
+    width: 1em;
+    border: 0.2em solid #07249e;
+    border-radius: 50%;
+    margin-left: 1em;
+}
+
+.right1:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.04em;
+    margin-left: -0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid #07249e;
+    border-right: 0.2em solid #07249e;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.readamor1{
+    text-decoration: none;
+    color: #07249e;
+}
+
+.readmore11{
+    padding: 0px 25px;
+}
+
+.bottompadd1{
+    padding-bottom: 5%;
+}
+
+.bluelinebt{
+    border: 3px solid #07249e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}

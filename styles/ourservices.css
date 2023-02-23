@@ -1,0 +1,97 @@
+.ourser{
+    margin-top: 5%;
+}
+
+.center{
+    margin: auto;
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.mcent{
+    text-align: center;
+    font-size: 36px;
+}
+
+.txtcen{
+    text-align: center;
+    color: #646464;
+}
+
+.txtsocial{
+    color: #646464;
+    padding: 10px;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 28%;
+    border-radius: 5px;
+    text-align: center;
+    align-items: center;
+    background-color: #f8f8f8;
+    margin: 30px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .card Image {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .crdicn{
+    margin-top: 10%;
+  }
+  
+  .container {
+    padding: 2px 16px;
+  }
+  
+.rightarrow {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarr {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 1em;
+    border: 0.2em solid #07249e;
+    border-radius: 50%;
+    margin-left: 1em;
+    padding: 1px;
+}
+
+.right:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.04em;
+    margin-left: -0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid #07249e;
+    border-right: 0.2em solid #07249e;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.readamor{
+    text-decoration: none;
+    color: #07249e;
+}
+
+.bottompadd{
+    padding-bottom: 10%;
+}
