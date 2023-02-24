@@ -1,0 +1,176 @@
+.fotone{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #07249e;
+    color: white;
+    padding: 20px;
+}
+
+.thirecns{
+    display: inline;
+}
+
+.radiousmg{
+    border-radius: 50%;
+}
+
+.mainfooter{
+    background-color: #090d61;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px;
+}
+
+.fotleft{
+    flex-basis: 20%;
+}
+
+.leftstxt{
+    color: #ceced0;
+}
+
+.foticn{
+    border-radius: 50%;
+    padding: 2%;
+    background-color: white;
+    margin: 5px;
+}
+
+.fotcentone{
+    flex-basis: 20%;
+    color: white;
+}
+
+.lineserv{
+    width: 50px;
+    float: left;
+    border: none;
+    outline-color: #ff9317;
+    height: 4px;
+    background-color: #ff9317;
+}
+
+.fotlnkcol{
+    color: white;
+}
+
+.fotcentwo{
+    flex-basis: 20%;   
+}
+
+.fotcenthre{
+    flex-basis: 20%;
+}
+
+.getquo{
+    color: white;
+}
+
+.lnkpad{
+    margin-top: 20px;
+}
+
+.dectxt{
+    text-decoration: none;
+}
+
+.fotwhite{
+    color: white;
+}
+
+.fotenpp{
+    padding: 2%;
+}
+
+.copycol{
+    color: #cccccc;
+}
+
+.fotbgcl{
+    background-color: #090d61;
+    text-align: center;
+    margin-top: -11px;
+    padding-top: 40px;
+}
+
+.bgbluen{
+    background-color: #090d61;
+    display: inline-block;
+}
+
+.emailfomrat{
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.tmsgformt{
+    width: 200px;
+    border-radius: 5px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.contentfot {
+    animation: moveright 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    margin-top: 10px;
+}
+
+.contentfot .btnfot {
+    display: inline-block;
+    background: white;
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color:  #ff9317;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+    width: 220px;
+}
+
+.rightarrowfot {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarrfot {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.rightfot {
+    display: inline-block;
+    width: 1em;
+    border: 0.2em solid #ff9317;
+    border-radius: 50%;
+    margin-left: 1em;
+    /* padding: 1px; */
+}
+
+.rightfot:after {
+    content: '';
+    display: inline-block;
+    /* margin-top: 0.05em; */
+    /* margin-left: -0.2em; */
+    margin-bottom: 3px;
+    width: 0.2em;
+    height: 0.2em;
+    border-top: 0.2em solid #ff9317;
+    border-right: 0.2em solid #ff9317;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.acol{
+    color: #090d61;
+}

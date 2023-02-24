@@ -1,0 +1,79 @@
+.body{
+    background-color: #f8f8f8;
+}
+
+.margintp{
+    margin-top: 5%;
+}
+
+.meetex{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 30px;
+}
+
+.txtcens{
+    text-align: center;
+    color: #646464;
+    padding: 3px;
+}
+
+.centerrec{
+    margin: auto;
+    /* width: 100%; */
+    /* padding: 15px; */
+    display: flex;
+    /* background-color: rgb(255, 255, 255); */
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+.cardrec {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    flex-basis: 22%;
+    border-radius: 5px;
+    margin: 15px;
+    text-align: center;
+    background-color: white;
+    margin-top: 3%;
+  }
+  
+  .cardrec:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .cardrec Image {
+    border-radius: 5px 5px 0 0;
+  }
+
+  .crdicnrec{
+    border-radius: 50%;
+    margin-top: 15%;
+  }
+  
+  .containerrec {
+    padding: 2px 16px;
+  }
+
+.analyst{
+    color: #ff9317;
+}
+
+.icnp{
+    padding: 5%;
+}
+
+.icnp:hover {
+    background-color: #f3eded;
+}
+
+.mrtp{
+    margin-top: 5%;
+}
+
+.bmrg{
+    margin-top: 20px;
+}

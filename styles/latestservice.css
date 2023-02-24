@@ -1,0 +1,57 @@
+.priourlser{
+    margin-top: 5%;
+    background-color: #f8f8f8;
+}
+
+.datfile{
+    display: inline-flex;
+    padding: 7px;
+}
+
+.primlser{
+    text-align: center;
+    font-size: 36px;
+    padding-top: 6%;
+}
+
+.pritxtlser{
+    text-align: center;
+    color: #646464;
+    padding: 5px;
+}
+
+.centerlets{
+    margin: auto;
+    /* width: 100%; */
+    /* padding: 3%; */
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-color: #f8f8f8;
+}
+
+.cardlets {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    /* width: 25.5%; */
+    flex-basis: 25.5%;
+    border-radius: 5px;
+    background-color: white;
+    margin: 20px;
+    padding: 5px;
+  }
+  
+  .cardlets:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+  }
+
+  .txtsociallets{
+    padding: 5px;
+    margin-top: 0%;
+    padding-top: 0%;
+}
+
+.bottompaddlets {
+    padding-bottom: 5%;
+}
+

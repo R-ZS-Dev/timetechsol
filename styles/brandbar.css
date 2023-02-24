@@ -1,0 +1,25 @@
+
+
+.brandspacing{
+    flex-wrap: wrap;
+    display: flex;
+    padding: 5px;
+    justify-content: space-around;
+}
+
+.brandspacing Image{
+    flex-basis: 18%;
+}
+
+.imgboxs{
+    padding: 15px;
+    transition: transform .9s;
+}
+
+.imgboxs:hover {
+    -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2); 
+    transition: transform .9s;
+    box-shadow: 5px 5px 2px 2px;
+}

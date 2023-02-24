@@ -1,0 +1,45 @@
+.fullcli{
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tophalfcli{
+    background-image: url('/./images/testimonial1.jpg');
+    flex-basis: 45.2%;
+    height: 555px;
+    text-align: center;
+}
+
+.imgcli{
+    margin-top: 80px;
+}
+
+.btmhalfcli{
+    flex-basis: 50%;
+}
+
+.cntnowcli{
+    font-size: 18px;
+    margin-top: 0px;
+    color: #b1afaf;
+    margin-top: 3%;
+}
+
+.getyourcli{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.towlinecli{
+    padding: 5%;
+}
+
+.cliname{
+    color: #07249e;
+    font-size: large;
+    margin-top: 5%;
+}
+
+.designat{
+    color: #07249e;
+}
