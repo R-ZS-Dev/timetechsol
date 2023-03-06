@@ -1,129 +1,130 @@
 import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
+import style from '@/styles/OurServices.module.css'
 
 const OurServices = () => {
     return (
         <>
-            <div className='ourser'>
-                <h1 className='mcent'>Our SEO Services</h1>
-                <div className='txtcen'>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and functional. Clean</div>
-                <div className='txtcen'>aesthetics supported by a strong concept is what we stand for.</div>
+            <div className={style.ourser}>
+                <h1 className={style.mcent}>Our SEO Services</h1>
+                <div className={style.txtcen}>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and functional. Clean</div>
+                <div className={style.txtcen}>aesthetics supported by a strong concept is what we stand for.</div>
             </div>
 
-            <div className='center'>
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+            <div className={style.center}>
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label htmlFor='' className="rightarr">
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label htmlFor='' className={style.rightarr}>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
 
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label className="rightarr" htmlFor=''>
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label className={style.rightarr} htmlFor=''>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
 
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label className="rightarr" htmlFor=''>
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label className={style.rightarr} htmlFor=''>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
 
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label className="rightarr" htmlFor=''>
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label className={style.rightarr} htmlFor=''>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
 
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label className="rightarr" htmlFor=''>
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label className={style.rightarr} htmlFor=''>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
 
-                <div className="card">
-                    <Image className='crdicn' src="/./images/circle.png" alt="" height={'50'} width={'80'} />
-                    <div className="container">
+                <div className={style.card}>
+                    <Image className={style.crdicn} src="/./images/circle.png" alt="" height={'50'} width={'80'} />
+                    <div className={style.container}>
                         <h3><b>Social Marketing</b></h3>
-                        <p className='txtsocial'>If you get bored with social media,it’s because you are trying to get
+                        <p className={style.txtsocial}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
                     <div>
-                        <Link className='readamor' href={'/'}> <strong>Read More</strong>
-                            <div className="rightarrow">
-                                <label className="rightarr" htmlFor=''>
-                                    <label htmlFor='' className="right"></label>
+                        <Link className={style.readamor} href={'/'}> <strong>Read More</strong>
+                            <div className={style.rightarrow}>
+                                <label className={style.rightarr} htmlFor=''>
+                                    <label htmlFor='' className={style.right}></label>
                                 </label>
                             </div>
                         </Link>
                     </div>
-                    <div className='bottompadd'></div>
+                    <div className={style.bottompadd}></div>
                 </div>
             </div>
         </>

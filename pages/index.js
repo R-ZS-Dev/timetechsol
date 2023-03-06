@@ -12,6 +12,7 @@ import ClientFed from './components/ClientFed'
 import LatestService from './components/LatestService'
 import BrandBar from './components/BrandBar'
 import Footer from './components/Footer'
+// import PracticeModule from './components/PracticeModule'
 
 const index = () => {
   return (

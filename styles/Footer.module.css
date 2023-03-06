@@ -8,7 +8,15 @@
 }
 
 .thirecns{
-    display: inline;
+    display: flex;
+    flex-basis: 22%;
+    justify-content: space-around;
+}
+.thirecns img{
+    margin-top: 36px;
+}
+.thirecns div{
+    height: 110px;
 }
 
 .radiousmg{
@@ -85,7 +93,7 @@
 }
 
 .copycol{
-    color: #cccccc;
+    color: white;
 }
 
 .fotbgcl{
@@ -173,4 +181,42 @@
 
 .acol{
     color: #090d61;
+}
+
+@media only screen and (max-width: 768px){
+    .thirecns{
+        flex-basis: 38%;
+    }
+    .fotcentone{
+        flex-basis: 30%;
+    }
+    .fotleft{
+        flex-basis: 60%;
+    }
+    .fotcentwo{
+        margin-top: 30px;
+        flex-basis: 50%;   
+    }
+    .fotcenthre{
+        margin-top: 30px;
+        flex-basis: 42%;
+    }
+}
+
+@media only screen and (max-width: 425px){
+   .thirecns{
+    flex-basis: 80%;
+   }
+   .fotleft{
+    flex-basis: 80%;
+   }
+   .fotcentone{
+    flex-basis: 80%;
+   }
+   .fotcentwo{
+    flex-basis: 80%;
+   }
+   .fotcenthre{
+    flex-basis: 80%;
+   }
 }

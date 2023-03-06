@@ -1,24 +1,24 @@
 import Image from 'next/image'
-import Link from 'next/link'
 import React from 'react'
+import style from '@/styles/SiteOptimiz.module.css'
 
 const SiteOptimiz = () => {
     return (
         <>
-            <div className='fullopti'>
-                <div className='tophalf'>
-                    <Image className='imgcnt' src={'/./images/optipic.png'} height={'300'} width={'400'} alt="" />
+            <div className={style.fullopti}>
+                <div className={style.tophalf}>
+                    <Image className={style.imgcnt} src={'/./images/optipic.png'} height={'400'} width={'500'} alt="" />
                 </div>
-                <div className='btmhalf'>
-                    <div className='towline'>
-                        <h1 className='getyour'>Get Your Site Optimized &</h1>
-                        <p className='cntnow'>Converting Right Now</p>
+                <div className={style.btmhalf}>
+                    <div className={style.towline}>
+                        <h1 className={style.getyour}>Get Your Site Optimized &</h1>
+                        <p className={style.cntnow}>Converting Right Now</p>
                     </div>
-                    <div className='contentopt'>
-                        <button className="btnopt" href="">GET A FREE AUDIT
-                            <div className="rightarrowopt">
-                                <label htmlFor='' className="rightarropt">
-                                    <label htmlFor='' className="rightopt"></label>
+                    <div className={style.contentopt}>
+                        <button className={style.btnopt} href="">GET A FREE AUDIT
+                            <div className={style.rightarrowopt}>
+                                <label htmlFor='' className={style.rightarropt}>
+                                    <label htmlFor='' className={style.rightopt}></label>
                                 </label>
                             </div>
                         </button>

@@ -68,7 +68,15 @@
     font-size: 16px;
     cursor: pointer;
     color: #fff;
-    /* margin-left: 20px; */
     flex-basis: 15%;
     margin-top: 5px;
+}
+
+@media only screen and (max-width: 768px){
+    .firstinp {
+        flex-basis: 70%;
+    }
+    .firstinp2 {
+        flex-basis: 70%;
+    }
 }

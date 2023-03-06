@@ -55,3 +55,11 @@
     padding-bottom: 5%;
 }
 
+@media only screen and (max-width: 768px){
+    .primlser{
+        font-size: 30px;
+    }
+    .pritxtlser{
+        font-size: 14px;
+    }
+}

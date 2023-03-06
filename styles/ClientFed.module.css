@@ -5,10 +5,8 @@
     flex-wrap: wrap;
 }
 .tophalfcli{
-    background-image: url('/./images/testimonial1.jpg');
-    flex-basis: 45.2%;
+    flex-basis: 50%;
     height: 555px;
-    text-align: center;
 }
 
 .imgcli{
@@ -42,4 +40,17 @@
 
 .designat{
     color: #07249e;
+}
+
+@media only screen and (max-width: 425px){
+    .imgcli{
+        width:400px;
+        height: 400px;
+    }
+    .btmhalfcli{
+        flex-basis: 80%;
+    }
+    .towlinecli{
+        padding: 0px;
+    }
 }

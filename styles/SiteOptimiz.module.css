@@ -1,0 +1,113 @@
+.contentopt {
+    margin-left: 5%;
+    animation: moveright 1s linear 1;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+    padding: 20px;
+}
+
+.contentopt .btnopt {
+    display: inline-block;
+    background: linear-gradient(to right, #ff5917, #ff9317);
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.rightarrowopt {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarropt {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.rightopt {
+    display: inline-block;
+    width: 1em;
+    border: 0.3em solid rgb(255, 254, 254);
+    border-radius: 50%;
+    margin-left: 1em;
+    padding: 2px;
+}
+
+.rightopt:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.05em;
+    margin-left: -0.2em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid rgb(255, 255, 255);
+    border-right: 0.2em solid rgb(255, 255, 255);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.fullopti{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.tophalf{
+    flex-basis: 50%;
+    background-color: #07249e;
+    text-align: center;
+}
+
+.imgcnt{
+    margin-top: 80px;
+}
+
+.btmhalf{
+    background-color: #07249e;
+    flex-basis: 50%;
+}
+
+.cntnow{
+    font-size: 36px;
+    margin-top: 0px;
+}
+
+.getyour{
+    font-size: 36px;
+    margin-bottom: 0px;
+}
+.towline{
+    padding: 20px;
+    color: white;
+}
+
+@media only screen and (max-width: 768px){
+    .getyour{
+        text-align: center;
+        font-size: 28px;
+    }
+    .cntnow{
+        text-align: center;
+        font-size: 28px;
+    }
+    .tophalf{
+        text-align: center;
+    }
+    .fullopti{
+        flex-direction: column;
+        row-gap: 10px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .imgcnt{
+        width: 400px;
+    }
+}

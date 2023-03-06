@@ -143,3 +143,25 @@
 .bttmrg{
     margin-top: 30px;
 }
+
+@media only screen and (max-width: 768px){
+    .readamorprc {
+        padding: 10px;
+      }
+    .rightprc {
+        margin-left: 0.7em;
+        width: 1.2em
+    }
+    .primcent{
+        font-size: 30px;
+    }
+    .pritxtcen{
+        font-size: 14px;
+    }
+}
+
+@media only screen and (max-width: 425px){
+    .cardprc {
+        width: 400px;
+      }
+}

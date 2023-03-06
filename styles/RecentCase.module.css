@@ -1,79 +1,93 @@
-.ourser{
+.body{
+    background-color: rgb(255, 255, 255);
+}
+
+.ourser1{
     margin-top: 5%;
+    background-color: rgb(255, 255, 255);
 }
 
-.center{
-    margin: auto;
-    width: 100%;
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-.mcent{
+.rcentcase1{
     text-align: center;
     font-size: 36px;
 }
 
-.txtcen{
+.txtcen1{
     text-align: center;
     color: #646464;
+    padding: 5px;
 }
 
-.txtsocial{
+.center1{
+    margin: auto;
+    width: 100%;
+    /* padding: 10px; */
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.mcent1{
+    text-align: center;
+    font-size: 36px;
+}
+
+.txtsocial1{
     color: #646464;
+    padding: 0px 10px;
+}
+
+.txtsocial11{
+    color: #000000;
     padding: 10px;
 }
 
-.card {
+.card1 {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    width: 28%;
+    flex-basis: 28%;
     border-radius: 5px;
-    text-align: center;
-    align-items: center;
-    background-color: #f8f8f8;
     margin: 30px;
   }
   
-  .card:hover {
+  .card1:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
   }
   
-  .card Image {
+  .card1 Image {
     border-radius: 5px 5px 0 0;
   }
 
-  .crdicn{
-    margin-top: 10%;
+  .crdicn1{
+    border-radius: 5px 5px 0 0;
   }
   
   .container {
     padding: 2px 16px;
   }
   
-.rightarrow {
+.rightarrow1 {
     display: inline-block;
     vertical-align: middle;
     text-align: center;
     padding: 0;
 }
 
-.rightarr {
+.rightarr1 {
     display: inline-block;
     border-radius: 50%;
 }
 
-.right {
+.right1 {
     display: inline-block;
     width: 1em;
     border: 0.2em solid #07249e;
     border-radius: 50%;
     margin-left: 1em;
-    padding: 1px;
 }
 
-.right:after {
+.right1:after {
     content: '';
     display: inline-block;
     margin-top: 0.04em;
@@ -87,11 +101,34 @@
     transform: rotate(45deg);
 }
 
-.readamor{
+.readamor1{
     text-decoration: none;
     color: #07249e;
 }
 
-.bottompadd{
-    padding-bottom: 10%;
+.readmore11{
+    padding: 0px 25px;
+}
+
+.bottompadd1{
+    padding-bottom: 5%;
+}
+
+.bluelinebt{
+    border: 3px solid #07249e;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+
+@media only screen and (max-width: 768px){
+    .txtcen1{
+        font-size: 15px;
+    }
+    .rcentcase1{
+        font-size: 33px;
+    }
+    .right1 {
+        width: 1.15em;
+    }
 }

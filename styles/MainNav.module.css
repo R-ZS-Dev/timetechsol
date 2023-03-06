@@ -2,7 +2,7 @@
     overflow: hidden;
 }
 
-.topnav span {
+.topnav label {
     float: right;
     padding: 14px 16px;
     text-transform: uppercase;
@@ -24,18 +24,19 @@
     padding: 10px 12px;
 }
 
-.topnav span:hover {
+.topnav label:hover {
     color: #fd7e14;
 }
 
 .dropdown {
-    float: right;
+    /* float: right; */
+    display: inline-block;
     text-transform: uppercase;
     font-size: 14px;
     font-weight: 600;
     letter-spacing: 0.5px;
     line-height: 1;
-    display: block;
+    /* display: block; */
     color: #111111;
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -62,16 +63,16 @@
     color: #fd7e14;
 }
 
-.dropdown-content {
+.dropdowncontent {
     display: none;
     position: absolute;
     min-width: 160px;
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
-    margin-top: 30px;
+    margin-top: 18px;
 }
 
-.dropdown-content span {
+.dropdowncontent label {
     float: none;
     color: black;
     padding: 12px 16px;
@@ -79,11 +80,11 @@
     text-align: left;
 }
 
-.dropdown-content span:hover {
+.dropdowncontent label:hover {
     color: #fd7e14;
 }
 
-.dropdown:hover .dropdown-content {
+.dropdown:hover .dropdowncontent {
     display: block;
 }
 
@@ -91,7 +92,8 @@
     text-decoration: none;
 }
 
-.txtdec span {
+.txtdec label {
+    cursor: pointer;
     font-size: 12px;
 }
 
@@ -108,8 +110,30 @@
     -webkit-transform: rotate(45deg);
 }
 
-.bluelin {
-    border: 1px solid blue;
+@media (max-width:748px) {
+.topnav > .navlinks {
     position: absolute;
-    width: 220px;
+    display: block;
+    width: 100%;
+    background-color: #333;
+    height: 0px;
+    transition: all 0.3s ease-in;
+    overflow-y: hidden;
+    top: 50px;
+    left: 0px;
+  }
+  .topnav > .navlinks > Link {
+    display: block;
+    width: 100%;
+  }
+  .ntopnavav > #navcheck:not(:checked) ~ .navlinks {
+    height: 0px;
+  }
+  .topnav > #navcheck:checked ~ .navlinks {
+    height: calc(100vh - 50px);
+    overflow-y: auto;
+  }
+
 }
+
+/* New Nav */

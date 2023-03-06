@@ -1,0 +1,141 @@
+.webdisplay{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.webmark1{
+    flex-basis: 50%;
+    /* background-image: url('/./images/resizeimg2.png'); */
+}
+.webmark2{
+    flex-basis: 50%;
+}
+.webmarpp{
+    padding: 30px;
+}
+.normwebtxt{
+    color: #646464;
+    padding-top: 10px;
+    font-size: 18px;
+}
+
+.rightarrowweb {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 5px;
+}
+
+.rightarrweb {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.rightweb {
+    display: inline-block;
+    width: 1em;
+    /* border: 0.2em solid #07249e; */
+    border-radius: 50%;
+    margin-left: 1em;
+    padding: 1px;
+}
+.rightweb:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.04em;
+    margin-left: -0.1em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid #07249e;
+    border-right: 0.2em solid #07249e;
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+.ecosystem{
+    font-size: 18px;
+    font-weight: 500;
+    color: #111111;
+    margin-bottom: 8px;
+    padding-left: 20px;
+    position: relative;
+}
+
+.content .btn {
+    margin-top: 30px;
+    display: inline-block;
+    background: linear-gradient(to right, #ff5917, #ff9317);
+    border-radius: 6px;
+    border: none;
+    padding: 10px 20px;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #fff;
+    box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
+}
+
+.rightarrow {
+    display: inline-block;
+    vertical-align: middle;
+    text-align: center;
+    padding: 0;
+}
+
+.rightarr {
+    display: inline-block;
+    border-radius: 50%;
+}
+
+.right {
+    display: inline-block;
+    width: 1em;
+    border: 0.3em solid rgb(255, 254, 254);
+    border-radius: 50%;
+    margin-left: 1em;
+    padding: 2px;
+}
+
+.right:after {
+    content: '';
+    display: inline-block;
+    margin-top: 0.05em;
+    margin-left: -0.2em;
+    width: 0.4em;
+    height: 0.4em;
+    border-top: 0.2em solid rgb(255, 255, 255);
+    border-right: 0.2em solid rgb(255, 255, 255);
+    -moz-transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg);
+}
+
+@media only screen and (max-width: 768px){
+   .headweb{
+    font-size: 24px;
+   }
+   .webmarpp{
+    padding: 0px;
+    }
+    .textingweb{
+        width: 450px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .webmark1{
+        flex-basis: 50%;
+    }
+    .marktimgsiz{
+        width: 400px;
+    }
+    .webmarpp{
+        padding: 0px;
+        width: 350px;
+    }
+    .content {
+        text-align: center;
+    }
+}
+

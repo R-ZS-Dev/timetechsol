@@ -77,3 +77,22 @@
 .bmrg{
     margin-top: 20px;
 }
+
+@media only screen and (max-width: 768px){
+    .cardrec {
+        flex-basis: 40%;
+      }
+    .meetex{
+        font-size: 30px;
+    }
+    .txtcens{
+        font-size: 14px;
+    }
+}
+
+
+@media only screen and (max-width: 425px){
+    .cardrec {
+        flex-basis: 80%;
+      }
+}
