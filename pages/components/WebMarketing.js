@@ -11,28 +11,41 @@ const WebMarketing = () => {
             </div>
             <div className={style.webmark2}>
                 <div className={style.webmarpp}>
-                <h1 className={style.headweb}>We Are The Best Solution For</h1>
-                <h1 className={style.headweb}>Your Better Web Marketing</h1>
+                <h1 className={style.headweb}>We Lead from the Front</h1>
                 <div className={style.normwebtxt}>
                     <p>
-                        Our philosophy is that we want to be an ecosystem. Our philosophy is to empower others to sell, empower others to service, making sure the other people are more powerful than us. With our technology,of opportunity are collaboration and partnership.
+                        At TimeTechSol, we offer a range of solutions for your web development, app development, graphic 
+                        design, stationary design, logo design, and business card design needs. Our dedicated team of 
+                        professionals collaborates to deliver top-notch services.
                     </p>
                 </div>
                 <div className={style.textingweb}>
                 <div className={style.rightarrowweb}>
                         <span className={style.rightarrweb}>
                             <span className={style.rightweb}></span>
-                        </span> <span className={style.ecosystem}>Our philosophy is that we want to ecosystem.</span>
+                        </span> <span className={style.ecosystem}>
+                            <b>Experienced team:</b> A software house typically employs a team of experienced developers, 
+                            designers, and project managers who can offer a wealth of knowledge and expertise in software 
+                            development.
+                        </span>
                 </div>
                 <div className={style.rightarrowweb}>
                         <span className={style.rightarrweb}>
                             <span className={style.rightweb}></span>
-                        </span> <span className={style.ecosystem}>Making sure the other people than us.</span>
+                        </span> <span className={style.ecosystem}>
+                            <b>Diverse skill set: </b>
+                            A software house can offer a range of services, including web and mobile app development, 
+                            custom software development, UI/UX design, and quality assurance.
+                        </span>
                 </div>
                 <div className={style.rightarrowweb}>
                         <span className={style.rightarrweb}>
                             <span className={style.rightweb}></span>
-                        </span> <span className={style.ecosystem}>Best Solution For Your Better Web Marketing.</span>
+                        </span> <span className={style.ecosystem}>
+                            <b>Scalability: </b>
+                            A software house can scale up or down according to the client's needs, ensuring that they have 
+                            the right resources to complete a project on time and within budget.
+                        </span>
                 </div>
                 </div>
 

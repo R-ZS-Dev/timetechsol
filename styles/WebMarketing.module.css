@@ -22,7 +22,7 @@
 .rightarrowweb {
     display: inline-block;
     vertical-align: middle;
-    text-align: center;
+    /* text-align: center; */
     padding: 5px;
 }
 
@@ -33,11 +33,11 @@
 
 .rightweb {
     display: inline-block;
-    width: 1em;
+    /* width: 1em; */
     /* border: 0.2em solid #07249e; */
     border-radius: 50%;
-    margin-left: 1em;
-    padding: 1px;
+    /* margin-left: 1em; */
+    /* padding: 1px; */
 }
 .rightweb:after {
     content: '';
@@ -55,7 +55,7 @@
 
 .ecosystem{
     font-size: 18px;
-    font-weight: 500;
+    /* font-weight: 500; */
     color: #111111;
     margin-bottom: 8px;
     padding-left: 20px;
@@ -136,6 +136,12 @@
     }
     .content {
         text-align: center;
+    }
+    .ecosystem{
+        font-size: 14px;
+    }
+    .textingweb{
+        width: 380px;
     }
 }
 

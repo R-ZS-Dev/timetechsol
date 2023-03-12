@@ -67,19 +67,19 @@ const Footer = () => {
                 <div className={style.fotcenthre}>
                     <h2 className={style.getquo}>Get A Quote</h2>
                     <hr className={style.lineserv}></hr>
-                    <div>
+                    <div className={style.footer_message}>
                         <input type='text' className={style.emailfomrat} placeholder='Your E-mail *' />
                         <textarea type='text' rows={'4'} className={style.tmsgformt} placeholder='Your Message *' />
 
-                        <div className={style.contentfot}>
-                            <button className={style.btnfot}><strong>SEND MESSAGE</strong>
+                        {/* <div className={style.contentfot}> */}
+                            <button className={style.btnfot}>Send Message
                                 <div className={style.rightarrowfot}>
                                     <label htmlFor='' className={style.rightarrfot}>
                                         <label htmlFor='' className={style.rightfot}></label>
                                     </label>
                                 </div>
                             </button>
-                        </div>
+                        {/* </div> */}
 
                     </div>
                 </div>

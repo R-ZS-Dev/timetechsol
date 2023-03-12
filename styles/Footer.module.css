@@ -13,10 +13,10 @@
     justify-content: space-around;
 }
 .thirecns img{
-    margin-top: 36px;
+    margin-top: 13px;
 }
 .thirecns div{
-    height: 110px;
+    height: 70px;
 }
 
 .radiousmg{
@@ -71,7 +71,9 @@
 .fotcenthre{
     flex-basis: 20%;
 }
-
+.footer_message{
+    display: inline-block;
+}
 .getquo{
     color: white;
 }
@@ -128,9 +130,13 @@
     visibility: hidden;
     animation-fill-mode: forwards;
     margin-top: 10px;
+    padding: 10px 20px;
+    width: 320px;
+    background-color: white;
 }
 
-.contentfot .btnfot {
+/* .contentfot .btnfot { */
+.btnfot {
     display: inline-block;
     background: white;
     border-radius: 6px;
@@ -141,6 +147,7 @@
     color:  #ff9317;
     box-shadow: 3px 8px 22px rgba(94, 28, 68, 0.15);
     width: 220px;
+
 }
 
 .rightarrowfot {
@@ -181,6 +188,12 @@
 
 .acol{
     color: #090d61;
+}
+
+@media only screen and (max-width: 1024px){
+    .thirecns{
+        flex-basis: 28%;
+    }
 }
 
 @media only screen and (max-width: 768px){

@@ -11,7 +11,7 @@ const SiteOptimiz = () => {
                 </div>
                 <div className={style.btmhalf}>
                     <div className={style.towline}>
-                        <h1 className={style.getyour}>Get Your Site Optimized &</h1>
+                        <h1 className={style.getyour}>About Us</h1>
                         <p className={style.cntnow}>Converting Right Now</p>
                     </div>
                     <div className={style.contentopt}>

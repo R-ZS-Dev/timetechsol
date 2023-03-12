@@ -7,17 +7,16 @@ const RecentCase = () => {
         <>
             <div className={style.body}>
             <div className={style.ourser1}>
-                <h1 className={style.rcentcase1}>Recent Case Studies</h1>
+                <h1 className={style.rcentcase1}>Our Impressive Portfolio</h1>
                 <div className={style.txtcen1}>To become an able and successful man in any profession, three things are necessary, nature, three things are</div>
                 <div className={style.txtcen1}>necessary study and practice.</div>
             </div>
 
             <div className={style.center1}>
                 <div className={style.card1}>
-                    {/* <div className={style.crdicn1}></div> */}
-                    <Image className={style.crdicn1} src="/./images/case.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/get_in.jpg" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
                         <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
@@ -35,9 +34,9 @@ const RecentCase = () => {
                 </div>
 
                 <div className={style.card1}>
-                    <Image className={style.crdicn1} src="/./images/case1.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/saudi.png" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
                         <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
@@ -55,9 +54,9 @@ const RecentCase = () => {
                 </div>
 
                 <div className={style.card1}>
-                    <Image className={style.crdicn1} src="/./images/case2.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/chinai.png" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
                         <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
                             more value than you create.</p>
                     </div>
@@ -75,11 +74,10 @@ const RecentCase = () => {
                 </div>
 
                 <div className={style.card1}>
-                    <Image className={style.crdicn1} src="/./images/case.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/fspublisher.png" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
-                        <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
-                            more value than you create.</p>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
+                        <p className={style.txtsocial1}>International Journal of Agriculture and Biology</p>
                     </div>
                     <div className={style.readmore11}>
                         <Link className={style.readamor1} href={'/'}> <strong>Read More</strong>
@@ -95,11 +93,10 @@ const RecentCase = () => {
                 </div>
 
                 <div className={style.card1}>
-                    <Image className={style.crdicn1} src="/./images/case1.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/educ.png" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
-                        <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
-                            more value than you create.</p>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
+                        <p className={style.txtsocial1}>Online School Management System</p>
                     </div>
                     <div className={style.readmore11}>
                         <Link className={style.readamor1} href={'/'}> <strong>Read More</strong>
@@ -115,11 +112,10 @@ const RecentCase = () => {
                 </div>
 
                 <div className={style.card1}>
-                    <Image className={style.crdicn1} src="/./images/case2.jpg" alt="" height={'250'} width={'373'} />
+                    <Image className={style.crdicn1} src="/./images/karachi.png" alt="" height={'250'} width={'373'} />
                     <div className={style.container}>
-                        <h3><b className={style.txtsocial11}>Social Marketing</b></h3>
-                        <p className={style.txtsocial1}>If you get bored with social media,it’s because you are trying to get
-                            more value than you create.</p>
+                        <h3><b className={style.txtsocial11}>Web Development</b></h3>
+                        <p className={style.txtsocial1}>Kitchen Catering</p>
                     </div>
                     <div className={style.readmore11}>
                         <Link className={style.readamor1} href={'/'}> <strong>Read More</strong>

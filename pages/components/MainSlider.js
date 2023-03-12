@@ -6,11 +6,11 @@ const MainSlider = () => {
         <>
         <div className={style.bgphoto}>
             <div className={style.content}>
-                <p className={style.toppadd}>The Best Agency For Digital Marketing</p>
-                <h3>Promote Your Website <br></br> With SEO Service</h3>
-                <div className={style.mtextsize}>Good business leaders create articulate the vision, passionately</div>
-                <div className={style.mtextsize}>vision and relentlessly drive it to completionrt working with an</div>
-                <div className={style.mtextsize}>company that can provide everything.</div>
+                <p className={style.toppadd}>Transforming Your Business with Next-Generation Tech</p>
+                <h3>Web Development services </h3>
+
+                <div className={style.mtextsize}>We help ambitious companies like yours to build</div>
+                <div className={style.mtextsize}>best in class products. Our approach delivers more value, faster.</div>
 
                 <button className={style.btn}>Read More
                     <div className={style.rightarrow}>

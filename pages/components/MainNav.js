@@ -56,7 +56,9 @@ const MainNav = () => {
 
                 <div className="nav-links">
                     <Link href="/"><b>Home</b></Link>
-                    <span className={style.dropdown} href={"/"}>
+                    <Link href="/"><b>Services</b></Link>
+
+                    {/* <span className={style.dropdown} href={"/"}>
                     <label htmlFor=''>
                         <button className={style.dropbtn}>Services</button>
                         <div className={style.dropdowncontent}> 
@@ -66,11 +68,12 @@ const MainNav = () => {
                             <Link className={style.txtdec} href={"/"}><label htmlFor=''>Search Engine Optimization</label></Link>
                         </div>
                     </label>
-                    </span>
+                    </span> */}
+
                     <Link href="/"><b>Portfolio</b></Link>
                     <Link href="/"><b>About</b></Link>
                     <Link href="/"><b>Team</b></Link>
-                    <Link href="/"><b>Blog</b></Link>
+                    <Link href="/./Blog_View"><b>Blog</b></Link>
                 </div>
             </div>
         </>

@@ -9,7 +9,7 @@ const MeetExpert = () => {
             <div className={style.body}>
                 <div className={style.margintp}>
                     <div>
-                        <h1 className={style.meetex}><strong>Meet Our Experts</strong></h1>
+                        <h1 className={style.meetex}><strong>Meet Our Experts Team</strong></h1>
                         <div className={style.txtcens}>Good business leaders create a vision, articulate the vision, passionately own the vision, and relentlessly drive it to and</div>
                         <div className={style.txtcens}>relentlessly drive it to and relentlessly drive it to completion completion and relentlessly drive it to completion</div>
                         <div className={style.txtcens}>completion.</div>
