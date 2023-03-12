@@ -12,16 +12,16 @@ function MeetExpertTeamTile(props) {
                 <label className={style.analyst}>{props.position}</label>
                 <div className={style.mrtp}>
                     {props.fbLink != "" &&
-                        <Link href={props.fbLink} target="_blank"><Image className={style.icnp} src={"/images/fb.png"} height="20" width={'20'} alt='' ></Image></Link>
+                        <Link href={props.fbLink ?? ''} target="_blank"><Image className={style.icnp} src={"/images/fb.png"} height="20" width={'20'} alt='' ></Image></Link>
                     }
                     {props.twLink != "" &&
-                        <Link href={props.twLink} target="_blank"><Image className={style.icnp} src={"/images/tw.png"} height="20" width={'20'} alt='' ></Image></Link>
+                        <Link href={props.twLink ?? ''} target="_blank"><Image className={style.icnp} src={"/images/tw.png"} height="20" width={'20'} alt='' ></Image></Link>
                     }
                     {props.lnLink != "" &&
-                        <Link href={props.lnLink} target="_blank"><Image className={style.icnp} src={"/images/ln.png"} height="20" width={'20'} alt='' ></Image></Link>
+                        <Link href={props.lnLink ?? ''} target="_blank"><Image className={style.icnp} src={"/images/ln.png"} height="20" width={'20'} alt='' ></Image></Link>
                     }
                     {props.pnLink != "" &&
-                        <Link href={props.pnLink} target="_blank"><Image className={style.icnp} src={"/images/pn.png"} height="20" width={'20'} alt='' ></Image></Link>
+                        <Link href={props.pnLink ?? ''} target="_blank"><Image className={style.icnp} src={"/images/pn.png"} height="20" width={'20'} alt='' ></Image></Link>
                     }
 
                 </div>

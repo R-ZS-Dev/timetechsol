@@ -10,7 +10,7 @@ function PricePlanTile(props) {
                 <h1><b>${props.price}</b></h1>
             </div>
             <div>
-                {props.packageServices.map((ps, i) => (
+                {props.packageServices && props.packageServices.map((ps, i) => (
                     <p className={style.txtsocialprc} key={i}>{ps}</p>
                 ))}
             </div>

@@ -11,7 +11,7 @@ function PortfolioTile(props) {
                 <p className={style.txtsocial1}>{props.detail}</p>
             </div>
             <div className={style.readmore11}>
-                <Link className={style.readamor1} href={props.link} target="_blank"> <strong>View Link</strong>
+                <Link className={style.readamor1} href={props.link ?? ''} target="_blank"> <strong>View Link</strong>
                     {/* <div className={style.rightarrow1}>
                                 <label htmlFor="" className={style.rightarr1}>
                                     <label htmlFor="" className={style.right1}></label>

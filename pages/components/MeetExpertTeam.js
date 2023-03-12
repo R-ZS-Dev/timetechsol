@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import style from '@/styles/MeetExpertTeam.module.css'
-import MeetExpertTeamTile from '../tiles/MeetExpertTeamTile'
+import MeetExpertTeamTile from '@/pages/tiles/MeetExpertTeamTile'
 
 const MeetExpertTeam = () => {
     const imageBasePath = "/images/team/";

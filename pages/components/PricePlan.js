@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import style from '@/styles/PricePlan.module.css'
-import PricePlanTile from '../tiles/PricePlanTile';
+import PricePlanTile from '@/pages/tiles/PricePlanTile';
 
 const PricePlan = () => {
     const [pricePlan, setpricePlan] = useState([

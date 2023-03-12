@@ -1,5 +1,5 @@
 import style from "@/styles/Portfolio.module.css"
-import PortfolioTile from "../tiles/PortfolioTiles"
+import PortfolioTile from "@/pages/tiles/PortfolioTiles"
 import { useState } from "react"
 
 const Portfolio = () => {

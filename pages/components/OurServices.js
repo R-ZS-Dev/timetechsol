@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import style from '@/styles/OurServices.module.css'
-import OurServicesTile from '../tiles/OurServicesTile'
+import OurServicesTile from '@/pages/tiles/OurServicesTile'
 
 const OurServices = () => {
     const imageBasePath = "/images/services/";
