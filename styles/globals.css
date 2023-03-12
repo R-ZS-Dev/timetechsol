@@ -1,82 +1,111 @@
-*{
-    font-family: 'Roboto', sans-serif;
-    margin-top: 0px;
-    margin-left: 0px;
-    margin-right: 0px;
+* {
+  font-family: 'Roboto', sans-serif;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  line-height: 35px !important;
+  font-size: 18px;
 }
+
+:root{
+--margin-top-section: 87px;
+}
+
+#main-slider{
+  margin-top: var(--margin-top-section) !important;
+}
+
+#services, #portfolio, #about-us, #team, #pricing-plan, #latest-blog{
+  padding-top: var(--margin-top-section);
+}
+
 
 .nav {
   width: 100%;
+  position: fixed;
+  background: #220f68;
+  height: var(--margin-top-section);
+  box-shadow: 0px 0px 10px 0px grey;
+  z-index: 9999;
 }
 
-.ijvsnavtitle{
+.ijvsnavtitle {
   text-decoration: none;
 }
 
-.nav > .nav-header {
+.nav>.nav-header {
   display: inline;
 }
 
-.nav > .nav-header > .nav-title {
+.nav>.nav-header>.nav-title {
   display: inline-block;
 }
 
-.nav > .nav-btn {
+.nav>.nav-btn {
   display: none;
 }
 
-.nav > .nav-links {
+.nav>.nav-links {
   display: inline;
   float: right;
+  margin-top: 23px;
 }
 
-.nav > .nav-links > a {
+.nav>.nav-links>a {
   display: inline-block;
   padding: 7px 10px 0px 10px;
   text-decoration: none;
   font-family: 'Roboto', sans-serif;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   font-size: 14px;
   font-weight: 600;
   letter-spacing: 0.5px;
-  color: black;
+  color: white;
 }
 
-.nav > .nav-links > a:hover {
+.nav>.nav-links>a:hover {
   color: #fd7e14;
   transition: 0.4s;
 }
 
-.nav > #nav-check {
+.nav>#nav-check {
   display: none;
 }
 
 @media (max-width: 768px) {
 
-  .nav > .nav-btn {
+  .nav>.nav-btn {
     display: block;
     top: 80px;
     float: right;
     color: black;
   }
-  .nav > .nav-btn > label {
+
+  .nav>.nav-btn>label {
     display: inline-block;
     width: 50px;
     height: 50px;
     padding: 13px;
     margin-bottom: -34px;
   }
-  .nav > .nav-btn > label:hover,.nav  #nav-check:checked ~ .nav-btn > label {
+
+  .nav>.nav-btn>label:hover,
+  .nav #nav-check:checked~.nav-btn>label {
     float: right;
     color: black;
   }
-  .nav > .nav-btn > label > span {
+
+  .nav>.nav-btn>label>span {
     display: block;
     width: 25px;
     height: 10px;
     border-top: 2px solid black;
   }
-  .nav > .nav-links {
+
+  .nav>.nav-links {
     display: block;
     width: 100%;
     transition: all 0.3s ease-in;
@@ -84,15 +113,18 @@
     top: 50px;
     left: 0px;
   }
-  .nav > .nav-links > a {
+
+  .nav>.nav-links>a {
     display: block;
     width: 100%;
     color: black;
   }
-  .nav > #nav-check:not(:checked) ~ .nav-links {
+
+  .nav>#nav-check:not(:checked)~.nav-links {
     height: 0px;
   }
-  .nav > #nav-check:checked ~ .nav-links {
+
+  .nav>#nav-check:checked~.nav-links {
     height: calc(100vh - 50px);
     overflow-y: auto;
   }

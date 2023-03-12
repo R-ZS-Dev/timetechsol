@@ -42,7 +42,7 @@ const MainNav = () => {
                 <div className="nav-header">
                     <div className="nav-title px-">
                         <Link className='ijvsnavtitle px-3' href='/'>
-                            <Image className={style.logopad} src={"/images/logo2.png"} height="40" width={"110"} alt="TimeSol" />
+                            <Image className={style.logopad} src={"/images/logo2.png"} height="60" width={"120"} alt="TimeSol" />
                         </Link>
                     </div>
                 </div>
@@ -56,7 +56,7 @@ const MainNav = () => {
 
                 <div className="nav-links">
                     <Link href="/"><b>Home</b></Link>
-                    <Link href="/"><b>Services</b></Link>
+                    <Link href="/#services"><b>Services</b></Link>
 
                     {/* <span className={style.dropdown} href={"/"}>
                     <label htmlFor=''>
@@ -70,10 +70,12 @@ const MainNav = () => {
                     </label>
                     </span> */}
 
-                    <Link href="/"><b>Portfolio</b></Link>
-                    <Link href="/"><b>About</b></Link>
-                    <Link href="/"><b>Team</b></Link>
-                    <Link href="/./Blog_View"><b>Blog</b></Link>
+                    <Link href="/#portfolio"><b>Portfolio</b></Link>
+                    <Link href="/#about-us"><b>About</b></Link>
+                    <Link href="/#team"><b>Team</b></Link>
+                    <Link href="/#pricing-plan"><b>Plans</b></Link>
+                    <Link href="/#latest-blog"><b>Latest Blogs</b></Link>
+                    <Link href="/blogs"><b>Blog</b></Link>
                 </div>
             </div>
         </>

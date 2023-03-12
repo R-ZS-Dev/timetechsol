@@ -1,6 +1,8 @@
 .ourser{
-    margin-top: 5%;
+    margin-top: 20px;
+   
 }
+
 
 .center{
     margin: auto;
@@ -66,11 +68,12 @@
 
 .right {
     display: inline-block;
-    width: 1em;
     border: 0.2em solid #07249e;
     border-radius: 50%;
     margin-left: 1em;
-    padding: 1px;
+    padding: 3px 8px;
+    width: 20px;
+    height: 30px;
 }
 
 .right:after {

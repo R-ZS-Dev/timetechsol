@@ -8,7 +8,7 @@ const Footer = () => {
         <>
             <div className={style.fotone}>
                 <div className={style.thirecns}>
-                    <Image className='radiousmg' src={'/./images/phone.jpg'} height='30' width={'30'} alt='' />
+                    <Image className='radiousmg' src={'/images/phone.jpg'} height='30' width={'30'} alt='' />
 
                     <div className={style.monfri}>
                         <h3>(123) 0800 567890</h3>
@@ -16,7 +16,7 @@ const Footer = () => {
                     </div>
                 </div>
                 <div className={style.thirecns}>
-                        <Image className='radiousmg' src={'/./images/email.jpg'} height='30' width={'30'} alt='' />
+                        <Image className='radiousmg' src={'/images/email.jpg'} height='30' width={'30'} alt='' />
                         
                     <div className={style.monfri}>
                     <h3>info@seosight.com </h3>
@@ -25,7 +25,7 @@ const Footer = () => {
 
                 </div>
                 <div className={style.thirecns}>
-                        <Image className='radiousmg' src={'/./images/location.jpg'} height='30' width={'30'} alt='' />
+                        <Image className='radiousmg' src={'/images/location.jpg'} height='30' width={'30'} alt='' />
                         <div className={style.monfri}>
                     <h3>Newyork City</h3>
                     55 street South Park Avenue
@@ -34,14 +34,14 @@ const Footer = () => {
             </div>
             <div className={style.mainfooter}>
                 <div className={style.fotleft}>
-                    <Image src={'/./images/footer-logo.png'} width='200' height={'50'} alt='' />
+                    <Image src={'/images/logo2.png'} width='200' height={'100'} alt='' />
                     <p className={style.leftstxt}>Our users are impatient. They're probably distracted too. Keep it simple and beautiful, fun and
                         functional. Clean aesthetics supported by a strong concept is what we stand for...</p>
                     <div>
-                        <Image className={style.foticn} src={'/./images/fb.png'} width='25' height={'25'} alt='' />
-                        <Image className={style.foticn} src={'/./images/tw.png'} width='25' height={'25'} alt='' />
-                        <Image className={style.foticn} src={'/./images/ln.png'} width='25' height={'25'} alt='' />
-                        <Image className={style.foticn} src={'/./images/pn.png'} width='25' height={'25'} alt='' />
+                        <Link href={'https://www.facebook.com/timetechsol'} target='_blank'><Image className={style.foticn} src={'/images/fb.png'} width='25' height={'25'} alt='' /></Link>
+                        <Link href={'https://twitter.com/timetechsol?fbclid=IwAR3QHAZbshRlHhfmuCw29E1nfONancwTga5SYgAryljMIXz-OJ0KlcHACJo'} target='_blank'><Image className={style.foticn} src={'/images/tw.png'} width='25' height={'25'} alt='' /></Link>
+                        <Link href={'https://www.linkedin.com/company/timetechsol/'} target='_blank'><Image className={style.foticn} src={'/images/ln.png'} width='25' height={'25'} alt='' /></Link>
+                        {/* <Link href={''} target='_blank'><Image className={style.foticn} src={'/images/pn.png'} width='25' height={'25'} alt='' /></Link> */}
                     </div>
                 </div>
                 <div className={style.fotcentone}>
@@ -88,7 +88,7 @@ const Footer = () => {
             <div className={style.fotbgcl}>
                 <hr></hr>
                 <div className={style.fotenpp}>
-                    <label className={style.copycol} htmlFor=''>Copyright © 2019 Optimax by <Link className={style.fotwhite} href={'/'}>RadiusTheme</Link>. All Rights Reserved.</label>
+                    <label className={style.copycol} htmlFor=''>Copyright © 2023 Developed by <Link className={style.fotwhite} href={'/'}>TimeTechSol</Link>. All Rights Reserved.</label>
                 </div>
             </div>
         </>

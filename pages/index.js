@@ -4,12 +4,12 @@ import OurServices from './components/OurServices'
 import SubscribeSeo from './components/SubscribeSeo'
 import WebMarketing from './components/WebMarketing'
 import Head from 'next/head'
-import RecentCase from './components/RecentCase'
-import MeetExpert from './components/MeetExpert'
-import SiteOptimiz from './components/SiteOptimiz'
+import Portfolio from './components/Portfolio'
+import MeetExpertTeam from './components/MeetExpertTeam'
+import AboutUs from './components/AboutUs'
 import PricePlan from './components/PricePlan'
 import ClientFed from './components/ClientFed'
-import LatestService from './components/LatestService'
+import LatestBlogs from './components/LatestBlogs'
 import BrandBar from './components/BrandBar'
 import Footer from './components/Footer'
 // import PracticeModule from './components/PracticeModule'
@@ -24,15 +24,15 @@ const index = () => {
     <div>
       < MainNav />
       < MainSlider />
-      < SubscribeSeo />
       < OurServices />
+      < SubscribeSeo />      
       < WebMarketing />
-      < RecentCase />
-      < MeetExpert />
-      < SiteOptimiz />
+      < Portfolio />
+      < MeetExpertTeam />
+      < AboutUs />
       < PricePlan />
       < ClientFed />
-      < LatestService />
+      < LatestBlogs />
       < BrandBar />
       < Footer />
     </div>

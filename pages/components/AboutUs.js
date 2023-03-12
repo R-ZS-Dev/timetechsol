@@ -1,13 +1,13 @@
 import Image from 'next/image'
 import React from 'react'
-import style from '@/styles/SiteOptimiz.module.css'
+import style from '@/styles/AboutUs.module.css'
 
-const SiteOptimiz = () => {
+const AboutUs = () => {
     return (
-        <>
+        <section id="about-us">
             <div className={style.fullopti}>
                 <div className={style.tophalf}>
-                    <Image className={style.imgcnt} src={'/./images/optipic.png'} height={'400'} width={'500'} alt="" />
+                    <Image className={style.imgcnt} src={'/images/optipic.png'} height={'400'} width={'500'} alt="" />
                 </div>
                 <div className={style.btmhalf}>
                     <div className={style.towline}>
@@ -25,8 +25,8 @@ const SiteOptimiz = () => {
                     </div>
                 </div>
             </div>
-        </>
+        </section>
     )
 }
 
-export default SiteOptimiz
+export default AboutUs

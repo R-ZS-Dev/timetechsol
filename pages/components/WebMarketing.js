@@ -7,7 +7,7 @@ const WebMarketing = () => {
     <>
         <div className={style.webdisplay}>
             <div className={style.webmark1}>
-                <Image className={style.marktimgsiz} src={'/./images/resizeimg2.png'} height={'500'} width={'500'} alt=""/>
+                <Image className={style.marktimgsiz} src={'/images/resizeimg2.png'} height={'500'} width={'500'} alt=""/>
             </div>
             <div className={style.webmark2}>
                 <div className={style.webmarpp}>
@@ -49,7 +49,7 @@ const WebMarketing = () => {
                 </div>
                 </div>
 
-                <div className={style.content}>
+                {/* <div className={style.content}>
                     <button className={style.btn}>Read More
                         <div className={style.rightarrow}>
                             <label htmlFor='' className={style.rightarr}>
@@ -57,7 +57,7 @@ const WebMarketing = () => {
                             </label>
                         </div>
                     </button>
-                </div>  
+                </div>   */}
                 </div>              
             </div>
         </div>

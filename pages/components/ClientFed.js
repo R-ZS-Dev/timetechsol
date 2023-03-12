@@ -8,7 +8,7 @@ const ClientFed = () => {
     <>
       <div className={style.fullcli}>
         <div className={style.tophalfcli}>
-          <Image className={style.imgcli} src={'/./images/testimonial1.jpg'} height={'450'} width={'500'} alt="" />
+          <Image className={style.imgcli} src={'/images/testimonial1.jpg'} height={'450'} width={'500'} alt="" />
         </div>
         <div className={style.btmhalfcli}>
           <div className={style.towlinecli}>

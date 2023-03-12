@@ -3,7 +3,6 @@ import React from 'react'
 import style from '@/styles/BlogView.module.css'
 import Link from 'next/link'
 import Footer from './components/Footer'
-import BlogRightSide from './components/BlogRightSide'
 import MainNav from './components/MainNav'
 
 const Blog_View = () => {
@@ -45,7 +44,7 @@ const Blog_View = () => {
                         everything perspective.
                     </p>
                     <div>
-                        <Link className={style.view_read_more} href={''}>Read More <span className={style.right_arrow}>→</span> </Link>
+                        <Link className={style.view_read_more} href={'/'}>Read More <span className={style.right_arrow}>→</span> </Link>
                         <span className={style.blog_com_img}>13</span>
                         <Image className={style.blog_com_img} src={'/images/blogcomment.png'} height='30' width={'30'} alt=''></Image>
                     </div>
@@ -74,7 +73,7 @@ const Blog_View = () => {
                     everything perspective.
                 </p>
                 <div>
-                    <Link className={style.view_read_more} href={''}>Read More <span className={style.right_arrow}>→</span> </Link>
+                    <Link className={style.view_read_more} href={'/'}>Read More <span className={style.right_arrow}>→</span> </Link>
                     <span className={style.blog_com_img}>13</span>
                     <Image className={style.blog_com_img} src={'/images/blogcomment.png'} height='30' width={'30'} alt=''></Image>
                 </div>
@@ -102,7 +101,7 @@ const Blog_View = () => {
                     everything perspective.
                 </p>
                 <div>
-                    <Link className={style.view_read_more} href={''}>Read More <span className={style.right_arrow}>→</span> </Link>
+                    <Link className={style.view_read_more} href={'/'}>Read More <span className={style.right_arrow}>→</span> </Link>
                     <span className={style.blog_com_img}>13</span>
                     <Image className={style.blog_com_img} src={'/images/blogcomment.png'} height='30' width={'30'} alt=''></Image>
                 </div>
@@ -130,7 +129,7 @@ const Blog_View = () => {
                     everything perspective.
                 </p>
                 <div>
-                    <Link className={style.view_read_more} href={''}>Read More <span className={style.right_arrow}>→</span> </Link>
+                    <Link className={style.view_read_more} href={'/'}>Read More <span className={style.right_arrow}>→</span> </Link>
                     <span className={style.blog_com_img}>13</span>
                     <Image className={style.blog_com_img} src={'/images/blogcomment.png'} height='30' width={'30'} alt=''></Image>
                 </div>
